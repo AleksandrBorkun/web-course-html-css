@@ -1,0 +1,63 @@
+aside{
+    background: linear-gradient(180deg, #6D5DA8 0%, #43479E 100%);
+    min-width: 300px;
+    width: 40%;
+    color: white;
+    padding-left: 20px;
+}
+
+aside h2{
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 70px;
+}
+
+
+aside img{
+    display: none;
+}
+
+.proSkills, .personalSkills, .socialLinks{
+    margin-top: 80px;
+}
+
+.sticky{
+    position: sticky;
+    top: 72px;
+}
+
+.skill label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    margin-left: 20px;
+}
+
+.proSkills span{
+    position: relative;
+}
+.proSkills span::before{
+    background: #877DBA;
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    height: 15px;
+    width: 220px;
+    left: -140px;
+}
+
+.proSkills .proLevel::after{
+    background: #BBB5DB;
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    height: 15px;
+    width: 220px;
+    left: -160px;
+}

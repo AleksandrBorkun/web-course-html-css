@@ -1,0 +1,42 @@
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.pesonalInfo{
+    display: flex;
+}
+
+.mainInfo{
+    margin-left: 40px;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 2px;
+
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 94px;
+
+}
+
+.position{
+    font-size: 35px;
+    line-height: 41px;
+    margin-bottom: 20px;
+}
+
+.contacts{
+    font-size: 28px;
+    line-height: 41px;
+}
+
+.mainSection{
+    margin: 70px;
+    margin-right: 20px;
+}
+

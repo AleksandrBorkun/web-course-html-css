@@ -1,0 +1,34 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    color: #666666;
+    display: flex;
+    margin: 0;
+
+}
+
+h1, h2{
+    color: #42489E;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;  
+    font-size: 47px;
+    line-height: 70px;
+    display: flex;
+    }
+
+.icon{
+    background-color: #42489E;
+    padding: 15px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.hobbie .icon{
+    padding: 15px 10px;
+}
