@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <a href="index.html">About Me</a>
+        <a href="fun-facts.html">Fun Facts</a>
+        <a href="add-friends.html">Add Friend</a>
+     </header>
+
+     <main>
+         
+        <h1>Add Friend</h1>
+
+        <form action="addFriend">
+            <span>
+                <label for="name">Name: </label>
+                <input type="text"/>
+            </span>
+
+            <span>
+                <label for="birthday">Birthday: </label>
+                <input type="date"/>
+            </span>
+
+            <span>
+                <label for="photo">Photo: </label>
+                <input type="file"/>
+            </span>
+
+            <span>
+                <label for="country">Country: </label>
+                <select name="country">
+                    <option value="Copenhagen">Copenhagen</option>
+                    <option default value="Kiev">Kiev</option>
+                    <option value="Cherkassy">Cherkassy</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Tenerife">Tenerife</option>
+                    <option value="NYC">New York</option>
+                </select>
+            </span>
+
+            <button type="submit">Add Friend</button>
+        </form>
+    
+    
+    </main>
+</body>
+</html>
